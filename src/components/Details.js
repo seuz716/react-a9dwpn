@@ -12,7 +12,7 @@ const Details = () => {
           textAlign: "center",
         }}
       >
-        <h1>{`Nombre: ${onePet.name}`}</h1>
+        <h1>{onePet.name}</h1>
         <h2>{`Edad: ${onePet.age}`}</h2>
         <img src={onePet.image} alt={onePet.name} width={300} />
       </div>

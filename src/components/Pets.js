@@ -9,9 +9,10 @@ const Pets = () => {
       <div style={{ textAlign: "center" }}>
         <h2>Pets</h2>
         {pets.map((e) => (
-          <p key={e.id}>
-            <Link to={`${e.id}`}>{e.name}</Link>
-          </p>
+          <h3 key={e.id}>
+            <Link to={`${e.id}`}>{e.name }  </Link>
+            {e.country_long}
+          </h3>
         ))}
       </div>
     </>
